@@ -1,0 +1,239 @@
+{
+ "truth_total_info_by_band": {
+  "low": 0.6132698306457112,
+  "mid": 0.1896287370976244,
+  "high": 0.05202104157042522
+ },
+ "truth_share_top6": 0.7833970392931022,
+ "chance_top6_precision": 0.25,
+ "models": {
+  "tx_0": {
+   "occlusion": {
+    "spearman": 0.7581565217391303,
+    "spearman_by_band": {
+     "low": 0.6836427732079904,
+     "mid": 0.8389130434782609,
+     "high": 0.7313444816053511
+    },
+    "top6_precision": 0.7022222222222222
+   },
+   "integrated_gradients": {
+    "spearman": 0.6246463768115942,
+    "spearman_by_band": {
+     "low": 0.484496670583627,
+     "mid": 0.7263323983169705,
+     "high": 0.6699933110367892
+    },
+    "top6_precision": 0.6816666666666666
+   },
+   "attention_layer1": {
+    "spearman": 0.43486086956521736,
+    "spearman_by_band": {
+     "low": 0.2492283587935762,
+     "mid": 0.5292847124824684,
+     "high": 0.5717324414715719
+    },
+    "top6_precision": 0.5022222222222222
+   },
+   "attention_layer2": {
+    "spearman": 0.4458579710144926,
+    "spearman_by_band": {
+     "low": 0.49902075989032496,
+     "mid": 0.46143758765778403,
+     "high": 0.32535117056856183
+    },
+    "top6_precision": 0.5677777777777778
+   },
+   "attention_layer3": {
+    "spearman": 0.3503420289855072,
+    "spearman_by_band": {
+     "low": 0.40366627497062274,
+     "mid": 0.27236325385694243,
+     "high": 0.4080401337792642
+    },
+    "top6_precision": 0.4094444444444445
+   },
+   "attention_rollout": {
+    "spearman": 0.6717739130434782,
+    "spearman_by_band": {
+     "low": 0.41251860556208375,
+     "mid": 0.8367812061711078,
+     "high": 0.7997190635451504
+    },
+    "top6_precision": 0.6877777777777777
+   }
+  },
+  "tx_1": {
+   "occlusion": {
+    "spearman": 0.7808191896223461,
+    "spearman_by_band": {
+     "low": 0.7036719134004842,
+     "mid": 0.8514165497896212,
+     "high": 0.7778849588513392
+    },
+    "top6_precision": 0.7205555555555555
+   },
+   "integrated_gradients": {
+    "spearman": 0.5283275362318841,
+    "spearman_by_band": {
+     "low": 0.4569682726204464,
+     "mid": 0.6242005610098177,
+     "high": 0.46729096989966545
+    },
+    "top6_precision": 0.5744444444444444
+   },
+   "attention_layer1": {
+    "spearman": 0.4126,
+    "spearman_by_band": {
+     "low": 0.21054445750097928,
+     "mid": 0.5601823281907433,
+     "high": 0.4761070234113712
+    },
+    "top6_precision": 0.4872222222222223
+   },
+   "attention_layer2": {
+    "spearman": 0.4258086956521739,
+    "spearman_by_band": {
+     "low": 0.2638151194672933,
+     "mid": 0.5818513323983169,
+     "high": 0.40476254180602006
+    },
+    "top6_precision": 0.5483333333333333
+   },
+   "attention_layer3": {
+    "spearman": 0.48492753623188395,
+    "spearman_by_band": {
+     "low": 0.287066196631414,
+     "mid": 0.6297685834502103,
+     "high": 0.5465016722408027
+    },
+    "top6_precision": 0.5377777777777778
+   },
+   "attention_rollout": {
+    "spearman": 0.569463768115942,
+    "spearman_by_band": {
+     "low": 0.36510771641206424,
+     "mid": 0.7243408134642354,
+     "high": 0.6229832775919733
+    },
+    "top6_precision": 0.6166666666666667
+   }
+  },
+  "tx_2": {
+   "occlusion": {
+    "spearman": 0.7514853280764356,
+    "spearman_by_band": {
+     "low": 0.7008930669800234,
+     "mid": 0.8251893408134641,
+     "high": 0.6972767650350541
+    },
+    "top6_precision": 0.7155555555555555
+   },
+   "integrated_gradients": {
+    "spearman": 0.29509855072463764,
+    "spearman_by_band": {
+     "low": 0.3263533098315707,
+     "mid": 0.373288920056101,
+     "high": 0.09256187290969899
+    },
+    "top6_precision": 0.5111111111111112
+   },
+   "attention_layer1": {
+    "spearman": 0.6128840579710144,
+    "spearman_by_band": {
+     "low": 0.33597336466901684,
+     "mid": 0.7949579242636745,
+     "high": 0.7384214046822741
+    },
+    "top6_precision": 0.6283333333333333
+   },
+   "attention_layer2": {
+    "spearman": 0.4212811594202898,
+    "spearman_by_band": {
+     "low": 0.3268546807677241,
+     "mid": 0.5130434782608695,
+     "high": 0.4074782608695652
+    },
+    "top6_precision": 0.508888888888889
+   },
+   "attention_layer3": {
+    "spearman": 0.4483420289855072,
+    "spearman_by_band": {
+     "low": 0.311108499804152,
+     "mid": 0.5747335203366057,
+     "high": 0.4415785953177257
+    },
+    "top6_precision": 0.4605555555555556
+   },
+   "attention_rollout": {
+    "spearman": 0.7020666666666666,
+    "spearman_by_band": {
+     "low": 0.5172502937720328,
+     "mid": 0.8291584852734922,
+     "high": 0.7752240802675584
+    },
+    "top6_precision": 0.6855555555555556
+   }
+  },
+  "ds_0": {
+   "occlusion": {
+    "spearman": 0.7891513789153125,
+    "spearman_by_band": {
+     "low": 0.7773834704269487,
+     "mid": 0.8508976157082748,
+     "high": 0.6914545247596362
+    },
+    "top6_precision": 0.7538888888888889
+   },
+   "integrated_gradients": {
+    "spearman": 0.6406695652173913,
+    "spearman_by_band": {
+     "low": 0.5756365060712886,
+     "mid": 0.7405890603085552,
+     "high": 0.5611103678929765
+    },
+    "top6_precision": 0.6794444444444444
+   }
+  },
+  "ds_1": {
+   "occlusion": {
+    "spearman": 0.7879721541208436,
+    "spearman_by_band": {
+     "low": 0.7548217783000392,
+     "mid": 0.8635042835176777,
+     "high": 0.7004907336731802
+    },
+    "top6_precision": 0.7627777777777777
+   },
+   "integrated_gradients": {
+    "spearman": 0.4739188405797102,
+    "spearman_by_band": {
+     "low": 0.2696043869956913,
+     "mid": 0.6844389901823282,
+     "high": 0.42121739130434777
+    },
+    "top6_precision": 0.5961111111111111
+   }
+  },
+  "ds_2": {
+   "occlusion": {
+    "spearman": 0.7943439349315283,
+    "spearman_by_band": {
+     "low": 0.7641414614287292,
+     "mid": 0.8550280504908835,
+     "high": 0.7301538461538459
+    },
+    "top6_precision": 0.7655555555555557
+   },
+   "integrated_gradients": {
+    "spearman": 0.5619246376811593,
+    "spearman_by_band": {
+     "low": 0.5063533098315708,
+     "mid": 0.695,
+     "high": 0.4029565217391304
+    },
+    "top6_precision": 0.625
+   }
+  }
+ }
+}
